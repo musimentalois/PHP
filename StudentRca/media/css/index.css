@@ -1,0 +1,99 @@
+body{
+    background-color: rgba(117, 115, 115, 0.26);
+    box-sizing: border-box;
+}
+
+img{
+    width: 220px;
+    height: 220px;
+   position: relative;
+    margin-left: 2em;
+    
+    
+}
+.back{
+    width:300px;
+  height: 150px;
+    background-color: rgba(224, 100, 100, 0.603);
+    position: absolute;
+}
+.back0{
+    width:300px;
+  height: 150px;
+    background-color: rgba(255, 255, 0, 0.616);
+    position: absolute;
+}
+
+.back1{
+    width:300px;
+  height: 150px;
+    background-color: rgb(119, 17, 119);
+    position: absolute;
+}
+
+.back2{
+    width:300px;
+  height: 150px;
+    background-color: rgba(255, 166, 0, 0.603);
+    position: absolute;
+}
+.card{
+   
+    width: 300px;
+    height: 480px;
+    border: 1px solid #ccc;
+    align-items: center;
+    margin: 1.5em;
+    /* padding: 2em; */
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+button{
+    background-color: black;
+    color: white;
+    font-size: larger;
+    border: none;
+    padding: 0.5em;
+    width: 230px;
+    margin-left: 1em;
+}
+span {
+    color: orange;
+   
+}
+h4{
+    margin-top: 10.4em;
+   font-size: larger;
+}
+h5{
+    font-size: larger;
+}
+.fa fa-star checked{
+    font-size: larger;
+   
+}
+.menu{
+    padding: 1em;
+}
+.container{
+    display: flex;
+    margin-left: 3em;
+    justify-content: center;
+    margin-top: 10em;
+}
+.btn{
+    border-radius: 2em;
+    background-color: white;
+    color: black;
+    width: 100px;
+    height: 50px;
+    margin-top: 1em;
+    position: absolute;
+    margin-left: 0%;
+}
+@media screen and (max-width: 600px) { 
+     
+     .container{
+         flex-wrap: wrap;
+     }
+}
