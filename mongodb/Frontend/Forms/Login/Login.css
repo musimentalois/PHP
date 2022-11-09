@@ -1,0 +1,139 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.main1{
+    width: 40%;
+    height: 98vh;
+    background: rgb(197, 214, 6);
+}
+
+.main2{
+    width: 60%;
+    height: 98vh;
+    background: #fff;
+}
+
+.image{
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+.intro{
+    
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 25vh;
+    margin-top: 5%;
+}
+
+.forms{
+    width: 40%;
+    margin-left: auto;
+    height: 55vh;
+    margin-right: auto;
+    margin-top: 2%;
+}
+
+
+
+.logoImg{
+    height: 10vh;
+    width: 8vw;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-left: 8px;
+}
+
+.logo{
+    width: 8vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2%;
+}
+
+.logo >h3{
+    margin-left: 10px;
+    font-size: 22px;
+    margin-top: -4px;
+}
+
+.logodesc{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.logodesc >h4{
+    font-weight: normal;
+}
+
+.desc{
+    display: flex;
+    font-size: 20px;
+    color:rgb(7, 70, 207); ;
+}
+
+.forms{
+    display: flex;
+    flex-direction: column;
+}
+
+.forms >input{
+background: #fff;
+border: 1px solid grey;
+height: 7vh;
+margin-top: 2vh;
+width: 80%;
+margin-left: 10%;
+margin-right: 10%;
+border-radius: 7px;
+padding-left: 10px;
+font-size: 18px;
+color: black;
+}
+
+
+.desc >input{
+    margin-top: 5.5%;
+    margin-left: 10%;
+}
+
+.desc :nth-child(2){
+    margin-left: 2%;
+}
+
+.desc :nth-child(3){
+    margin-left: auto;
+    margin-right: 7%;
+}
+
+.forms > button{
+    background: rgb(7, 70, 207);;
+    border: none;
+    height: 7vh;
+    margin-top: 2vh;
+    width: 83%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 7px;
+    padding-left: 10px;
+    font-size: 18px;
+    color: white;    
+}
+
+.forms >label{
+    margin-left: 10%;
+    margin-top: 12px;
+    font-weight: bold;
+    font-size: 24px;
+}
+

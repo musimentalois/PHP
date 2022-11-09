@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+*{
+    font-family: 'Quicksand', sans-serif;
+    border: 0;
+    outline: 0;
+    margin: 0;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.main1 {
+  width: 40%;
+  height: 1214px;
+  background: rgb(197, 214, 6);
+}
+
+.main2 {
+  width: 60%;
+  height: 98vh;
+  background: #fff;
+}
+
+.image {
+  margin-top: 200px;
+  margin-left: 100px;
+}
+
+.intro {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 20vh;
+  margin-top: 2%;
+}
+
+.forms {
+  width: 80%;
+  margin-left: 15%;
+  height: 70vh;
+  margin-top: 4%;
+}
+
+.logoImg{
+  height: 10vh;
+  width: 8vw;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.logo {
+  width: 8vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2%;
+}
+
+.logo > h3 {
+  margin-left: 10px;
+  font-size: 22px;
+  margin-top: -4px;
+}
+
+.logodesc {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.logodesc > h4 {
+  font-weight: normal;
+}
+
+.desc {
+  display: flex;
+  font-size: 20px;
+  color: rgb(7, 70, 207);
+}
+
+.forms {
+  display: flex;
+  flex-direction: column;
+}
+
+.rest > input , select {
+  background: #fff;
+  border: 1px solid grey;
+  height: 7vh;
+  margin-top: 2vh;
+  width: 60%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 7px;
+  padding-left: 10px;
+  font-size: 18px;
+  margin-bottom: 12px;
+  color: black;
+}
+
+.first > input {
+  background: #fff;
+  border: 1px solid grey;
+  height: 7vh;
+  margin-top: 2vh;
+  width: 90%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 7px;
+  padding-left: 10px;
+  font-size: 18px;
+  color: black;
+  margin-bottom: 12px;
+}
+
+.desc > input {
+  margin-top: 2.8%;
+  margin-left: 10%;
+}
+
+.desc :nth-child(2) {
+  margin-left: 2%;
+}
+
+.desc :nth-child(3) {
+  margin-left: auto;
+  margin-right: 20%;
+}
+
+.forms > button {
+  background: rgb(7, 70, 207);
+  border: none;
+  height: 7vh;
+  margin-top: 2vh;
+  width: 82%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  border-radius: 7px;
+  padding-left: 10px;
+  font-size: 18px;
+  color: white;
+}
+
+.rest > label {
+  margin-left: 10%;
+  margin-top: 12px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.first > label {
+  margin-left: 10%;
+
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.all {
+  display: flex;
+}
+
+.gender{
+  margin-left: 9%;
+  margin-top: 3%;
+  display: flex;
+  gap: 20px;
+  margin-bottom: 10%;
+  margin-top: 10%;
+}
+
+.male{
+  font-size: 18px;
+}
+
+.female{
+  font-size: 18px;
+}
